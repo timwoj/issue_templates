@@ -4,5 +4,5 @@ contact_links:
   about: Please use Discourse or Slack for support questions.
   url: https://zeek.org/community/
 - name: Security Issues
-  about: Please report security issues here.
-  url: security@zeek.org
+  about: Please see here about how to report security issues.
+  url: https://zeek.org/security-reporting/
