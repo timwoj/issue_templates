@@ -3,6 +3,7 @@ description: Normal, every day issues. Use this one 99% of the time.
 body:
   - type: textarea
     id: body
-    label: What's the issue?
+    attributes:
+      label: What's the issue?
     validations:
       required: true
