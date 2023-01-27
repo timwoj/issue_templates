@@ -4,6 +4,6 @@ body:
   - type: textarea
     id: body
     attributes:
-      label: What's the issue?
+      label: ""
     validations:
       required: true
