@@ -4,6 +4,15 @@ body:
   - type: textarea
     id: body
     attributes:
-      label: Issue
+      label: Issue details
+      description: Fill in all of the relevant details here
     validations:
       required: true
+  - type: input
+    id: version
+    attribute:
+      label: Version
+      description: What version of Zeek is this happening on? If unknown or on master, leave this blank.
+      placeholder: master
+    validations:
+      required: false
