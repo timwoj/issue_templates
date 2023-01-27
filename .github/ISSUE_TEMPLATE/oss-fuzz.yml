@@ -1,0 +1,22 @@
+name: OSS-Fuzz Report
+description: Issue for OSS-Fuzz Reports
+title: "OSS-Fuzz"
+labels: ["Needs-Triage"]
+body:
+  - type: input
+    id: fuzzer
+    attributes:
+      label: Fuzzer
+      description: Which fuzzer caused the report?
+      placeholder: zeek-packet-fuzzer
+  - type: input
+    id: report_url
+    attributes:
+      label: Detailed Report
+      description: The URL to the OSS-Fuzz detailed report
+      placeholder: https://oss-fuzz.com/testcase-detail/################
+  - type: textarea
+    id: backtrace
+    attributes:
+      label: backtrace
+      description: Backtrace from detailed report
