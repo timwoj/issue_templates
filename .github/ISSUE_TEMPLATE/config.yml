@@ -1,1 +1,4 @@
 blank_issues_enabled: true
+- name: Support Questions
+  about: Please use Discourse or Slack for support questions
+  url: https://zeek.org/community/
