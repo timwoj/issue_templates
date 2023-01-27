@@ -10,7 +10,7 @@ body:
       required: true
   - type: input
     id: version
-    attribute:
+    attributes:
       label: Version
       description: What version of Zeek is this happening on? If unknown or on master, leave this blank.
       placeholder: master
