@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
 - name: Support Questions
-  about: Please use Discourse or Slack for support questions.
+  about: Please use one of our great community resources for support questions!
   url: https://zeek.org/community/
 - name: Security Issues
-  about: Please see here about how to report security issues.
+  about: See here for information about how to report security issues.
   url: https://zeek.org/security-reporting/
