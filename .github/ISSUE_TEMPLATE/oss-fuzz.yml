@@ -35,3 +35,8 @@ body:
       description: Backtrace from the detailed report
     validations:
       required: true
+  - type: textarea
+    id: other_info
+    attributes:
+      label: Any other information?
+      description: Any other information about this report that might be relevant
