@@ -9,14 +9,29 @@ body:
       label: Fuzzer
       description: Which fuzzer caused the report?
       placeholder: zeek-packet-fuzzer
+    validations:
+      required: true
   - type: input
     id: report_url
     attributes:
       label: Detailed Report
       description: The URL to the OSS-Fuzz detailed report
       placeholder: https://oss-fuzz.com/testcase-detail/################
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Related Files
+      description: Minimizd test case from report and PCAP if available
+      placeholder: "Minimized test case: Drag file here\nPCAP: N/A"
+      value: "Minimized test case: Drag file here\nPCAP: N/A"
+    validations:
+      required: true
   - type: textarea
     id: backtrace
     attributes:
-      label: backtrace
-      description: Backtrace from detailed report
+      label: OSS-Fuzz Backtrace
+      description: Backtrace from the detailed report
+    validations:
+      required: true
